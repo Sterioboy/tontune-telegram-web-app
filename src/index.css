@@ -82,3 +82,7 @@
         @apply bg-background text-foreground;
     }
 }
+
+.gradient-border {
+    background: linear-gradient(white, white 0) padding-box, linear-gradient(to right, rgb(168, 85, 247), rgb(14, 165, 233)) border-box;
+}
